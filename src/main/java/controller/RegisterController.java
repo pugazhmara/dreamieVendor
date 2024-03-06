@@ -8,9 +8,9 @@ import models.RegisterModel;
 
 public class RegisterController {
 	String name,pass,email,phone;
-	String dbUrl="jdbc:mysql://srv1113.hstgr.io/u222487541_portal";
-    String dbUname="u222487541_mara";
-    String dbPassword="Hello105@";
+	String dbUrl="jdbc:mysql://localhost:3306/vendorDb";
+    String dbUname="root";
+    String dbPassword="";
     String dbDriver="com.mysql.cj.jdbc.Driver";
     RegisterModel rm;
 	public RegisterController(RegisterModel rm){
